@@ -56,7 +56,7 @@ spec:
         - name: K8S_POLICY_PREFIX
           value: azurepolicy
         - name: RESOURCE_ID
-          value: {{ .Values.azurepolicy.env.resourceid }}
+          value: /subscriptions/ef3cb171-fe39-4207-97bc-8bf89106e7b7/resourceGroups/demo/providers/Microsoft.Kubernetes/connectedClusters/democluster
         - name: RESOURCE_TYPE
           value: {{ .Values.azurepolicy.env.resourceType }}
         - name: DATAPLANE_ENDPOINT
